@@ -1,29 +1,44 @@
 {
-  "name": "express-vue",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
-  },
-  "dependencies": {
-    "core-js": "^3.6.5",
-    "vue": "^2.6.11",
-    "vue-router": "^3.2.0",
-    "vuex": "^3.4.0"
-  },
-  "devDependencies": {
-    "@vue/cli-plugin-babel": "~4.5.0",
-    "@vue/cli-plugin-eslint": "~4.5.0",
-    "@vue/cli-plugin-router": "~4.5.0",
-    "@vue/cli-plugin-vuex": "~4.5.0",
-    "@vue/cli-service": "~4.5.0",
-    "@vue/eslint-config-airbnb": "^5.0.2",
-    "babel-eslint": "^10.1.0",
-    "eslint": "^6.7.2",
-    "eslint-plugin-import": "^2.20.2",
-    "eslint-plugin-vue": "^6.2.2",
-    "vue-template-compiler": "^2.6.11"
-  }
+    "type": "module",
+    "name": "express-vue",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "serve": "vue-cli-service serve",
+        "build": "vue-cli-service build",
+        "lint": "vue-cli-service lint",
+        "express": "vue-cli-service express:watch",
+        "express:run": "vue-cli-service express:run"
+    },
+    "dependencies": {
+        "axios": "^0.21.1",
+        "body-parser": "^1.19.0",
+        "core-js": "^3.6.5",
+        "cors": "^2.8.5",
+        "jose-node-cjs-runtime": "^3.12.3",
+        "jose-node-esm-runtime": "^3.12.3",
+        "kerberos": "^1.1.5",
+        "materialize-css": "^1.0.0",
+        "pg": "^8.5.1",
+        "request": "^2.88.2",
+        "vue": "^2.6.11",
+        "vue-router": "^3.2.0",
+        "vuex": "^3.4.0"
+    },
+    "devDependencies": {
+        "@types/node": "^15.6.2",
+        "@vue/cli-plugin-babel": "~4.5.0",
+        "@vue/cli-plugin-eslint": "~4.5.0",
+        "@vue/cli-plugin-router": "~4.5.0",
+        "@vue/cli-plugin-vuex": "~4.5.0",
+        "@vue/cli-service": "~4.5.0",
+        "@vue/eslint-config-airbnb": "^5.0.2",
+        "babel-eslint": "^10.1.0",
+        "eslint": "^6.7.2",
+        "eslint-plugin-import": "^2.20.2",
+        "eslint-plugin-vue": "^6.2.2",
+        "jose": "^3.12.3",
+        "vue-cli-plugin-express": "~1.0.2",
+        "vue-template-compiler": "^2.6.11"
+    }
 }
